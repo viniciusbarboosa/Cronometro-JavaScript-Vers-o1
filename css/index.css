@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+h1{
+    color:white;
+}
+
+div{
+    text-align: center;
+    margin-top: 300px;
+ 
+
+    
+}
+
+.fundo{
+    background-color: rgb(2, 101, 101);
+    padding:30px;    
+    width: 400px;
+    margin-left: 600px;
+    
+    
+}
+#cronometro{
+    flex:100%;
+}
+button{
+    height:40px;
+    width: 100px;
+    border:none;
+    color:white;
+    font-size:15px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#iniciar{
+    background-color: chartreuse;
+}
+
+#pausar{
+    background-color: rgb(255, 225, 0);
+}
+
+#zerar{
+    background-color: rgb(255, 0, 0);
+}
